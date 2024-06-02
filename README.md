@@ -1,4 +1,4 @@
-Welcome to our game Monster Mayhem!!
+# Welcome to Monster Mayhem!!
 
 
 Pay attention!!
