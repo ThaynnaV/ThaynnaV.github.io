@@ -14,5 +14,8 @@ If there’s a dracula and a werewolf, the werewolf is removed!
 If there’s a werewolf and a ghost, the ghost is removed!
 If there’s a ghost and a dracula, the dracula is removed!
 If there’s two of the same kind of monster, both are removed!
+
+
+
 Play here! 
 https://ThaynnaV.github.io/
