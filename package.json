@@ -1,0 +1,11 @@
+{
+  "name": "thaynnav.github.io",
+  "version": "1.0.0",
+  "description": "Welcome to our game Monster Mayhem!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
