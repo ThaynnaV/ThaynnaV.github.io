@@ -1,0 +1,221 @@
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #ee0000cd;
+    text-shadow: 3px 3px 3px black;
+    font-family:'Akronim';font-size: 35px;
+    text-align: center;
+
+}
+
+h2{
+  margin: 0;
+    padding: 20px 0;
+    color: #e21010d2;
+    text-shadow: 3px 3px 3px black;
+    font-family:'Akronim';font-size: 35px;
+    text-align: center;
+}
+
+.rules-container {
+  text-align: center;
+}
+
+.rules-container ul {
+  list-style-type: none;
+  padding: 0; 
+}
+
+.rules-container li {
+  text-align: center;
+  font-family: "Edu TAS Beginner", cursive;
+  margin: 10px 0;
+}
+
+h3{
+  padding: 20px 0;
+  color: #ee0000cd;
+  text-shadow: 3px 3px 3px black;
+  font-family:'Akronim';
+  font-size: 45px;
+}
+
+h4{
+  font-family: "Edu TAS Beginner", cursive;
+  text-align: center;
+}
+
+h5{
+  padding: 20px 0;
+  color: #ee0000cd;
+  text-shadow: 3px 3px 3px black;
+  font-family:"Edu TAS Beginner", cursive;
+  font-size: 20px;
+  text-align: center;
+}
+p{
+  font-family: "Edu TAS Beginner", cursive;
+  font-size: 15px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #a91212; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.button:hover {background-color: #050505}
+
+.button:active {
+  background-color: #080808;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #363535;
+    padding: 0 20px 20px 20px;
+    border: 5px solid #b73d3d;
+}
+
+html {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+  background-color: #000000;
+}
+
+.game-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+
+.players-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;;
+  margin-bottom: 20px;
+}
+
+.gameBoard {
+  width:80vw;
+  height: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px; 
+}
+
+.square, .null {
+  width: 8.3333%;
+  height: 8.3333%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.white {
+  background-color: #da1616;
+}
+.black {
+  background-color: #080808;
+}
+
+.whiteRed {
+  background-color: #e84848;
+}
+.blackRed {
+  background-color: #d13d3d;
+}
+
+.whiteOrange {
+  background-color: #f49856;
+}
+.blackOrange {
+  background-color: #f58310;
+}
+
+.whitePink {
+  background-color: #e54bde;
+}
+.blackPink {
+  background-color: #b563a5;
+}
+
+.whiteGreen {
+  background-color: #84f382;
+}
+.blackGreen {
+  background-color: #2cac27;
+}
+
+.null {
+  background-color: #95ffa3;
+}
+
+.coordinate {
+  height:auto;
+  display:flex;
+  bottom: 4%;
+  left:4%;
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rank {
+  top:4%;
+  right:4%;
+  left:auto;
+}
+.whiteText {
+  color:#f6f4f0;
+}
+.blackText {
+  color:#191818;
+}
+.piece {
+  width:100%;
+  z-index: 1;
+  cursor: pointer;
+}
+.piece img {
+  max-width: 100%;
+  width:100%;
+  height: auto;
+}
+
+@media (min-width:600px) {
+  .gameBoard {
+      width:600px;
+      height: 600px;
+  }
+}
+@media (max-width:600px) {
+  .coordinate {
+    font-size: 8px;
+  }
+}
