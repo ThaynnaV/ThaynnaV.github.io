@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
     "websocket": "^1.0.35",
     "ws": "^8.17.0"
   }

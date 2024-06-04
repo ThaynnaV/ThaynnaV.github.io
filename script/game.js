@@ -33,7 +33,7 @@ let greenPlayer = document.getElementById("greenPlayer"); // Green player's info
 let myUser = document.getElementById("userId"); // Element displaying the logged-in user
 let userInfo = document.getElementById("userInfo"); // Element displaying user info
 
-/*
+
 // WebSocket setup
 const socket = new WebSocket('ws://localhost:8080');
 
@@ -58,7 +58,7 @@ socket.onerror = function(error) {
 function sendMessage(message) {
   socket.send(message);
 }
-*/
+
 
 // Login function
 function login() {
