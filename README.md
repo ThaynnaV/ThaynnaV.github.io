@@ -22,4 +22,4 @@ If there’s two of the same kind of monster, both are removed!
 
 
 Play here! 
-https://ThaynnaV.github.io/
+(https://thaynnav.github.io/ThaynnaV.github.io_CA2_MonsterMayhem/)
